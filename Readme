@@ -1,0 +1,10 @@
+Readme
+Last updated: 11/27/13
+Author: code-for-coffee
+
+This repo is designed to hold helpful, useful classes to kickstart your Java project!
+
+Included:
+
+* isValidIP(ipAddressToTest) - Returns boolean if a String is a valid IP address or not.
+* parseMe(csvFileToParse) - Pass the path of a file via String to parse a CSV document. 
