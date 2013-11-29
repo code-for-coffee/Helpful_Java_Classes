@@ -1,4 +1,14 @@
-package fetchWebContent;
+//  fetchWebAssets
+//  Last updated: 11/28/13 - code-for-coffee 
+//  https://code-for-coffee.github.com
+//
+//  Use:
+//  Fetch the contents of a webpage to be used
+//  elsewhere in the project. Returns the source
+//  of a webpage back to the application.
+// --------------------------------------------
+
+package yourPackageNameHere;        // edit
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,14 +17,15 @@ import java.net.URLConnection;
 
 /**
  *
- * @author jtrave1@wgu.edu
+ * @author code-for-coffee
  */
 public class fetchWebAssets {
     
     public String fetchAssets(String webURI, String param1, String val1, String param2, String val2) throws IOException {
        
         // take the user's input and create a query string
-        // query string last verified: 7/15/13
+        // query string last verified: 11/28/13
+        // feel free to change the Constructor as much as you like for this class/change the queryString
         URL queryString = new URL(webURI + "?" + param1 + "=" + val1 + "&" + param2 + "=" + val2);
         boolean didThisWork = true;
         String output = "";
@@ -33,10 +44,7 @@ public class fetchWebAssets {
                 System.out.print(tempData + "\n");
             }
             grabContents.close();
-            
-            // now, we need to analyze what has changed
-            // will add this later
-            
+                       
         }
         catch (IOException Exception) {
             // if application catches an error let us know
@@ -55,6 +63,6 @@ public class fetchWebAssets {
                 System.out.print("(URLConnection Failed)\t" + err);
             }
         }
-        return null;
+        return returnedWebContent;
     } 
 }

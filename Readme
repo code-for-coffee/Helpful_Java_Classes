@@ -8,3 +8,4 @@ Included:
 
 * isValidIP(ipAddressToTest) - Returns boolean if a String is a valid IP address or not.
 * parseMe(csvFileToParse) - Pass the path of a file via String to parse a CSV document. 
+* fetchWebAssets - returns the source of a web page back to the application.
