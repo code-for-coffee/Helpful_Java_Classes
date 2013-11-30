@@ -1,3 +1,9 @@
+//
+//  Released under the MIT License
+//  james@codeforcoffee.org, 2013
+//  See Readme file for more info.
+//
+
 package yourPackageNameHere;	//edit
 import fetchWebContent.fetchWebAssets; 
 import java.io.IOException;

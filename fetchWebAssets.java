@@ -6,6 +6,11 @@
 //  Fetch the contents of a webpage to be used
 //  elsewhere in the project. Returns the source
 //  of a webpage back to the application.
+//
+//  Released under the MIT License
+//  james@codeforcoffee.org, 2013
+//  See Readme file for more info.
+//
 // --------------------------------------------
 
 package yourPackageNameHere;        // edit

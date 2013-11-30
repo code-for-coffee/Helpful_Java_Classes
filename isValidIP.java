@@ -7,6 +7,10 @@
 //  the String is a valid IP address. Returns
 //  Boolean.
 //
+//  Released under the MIT License
+//  james@codeforcoffee.org, 2013
+//  See Readme file for more info.
+//
 // --------------------------------------------
 
 package yourPackageNameHere; // adjust as needed

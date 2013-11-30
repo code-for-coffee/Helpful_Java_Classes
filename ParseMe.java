@@ -6,6 +6,11 @@
 // This application is designed to take a CSV document
 // and parse it for you to do things with
 // IE: PROPERTY [STATUS: OK | FAILED]
+//
+//  Released under the MIT License
+//  james@codeforcoffee.org, 2013
+//  See Readme file for more info.
+//
 // --------------------------------------------
 
 package yourProjectNameHere; // adjust as needed
